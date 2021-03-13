@@ -30,11 +30,20 @@ pip install -r requirements.txt
 ```
 
 - ### Como rodar esse projeto
+ - Se estiver usando linux
 ```bash
 export FLASK_APP=main.py
 export FLASK_ENV=Development
-python main.py
 ```
+ - Se estiver usando windowns
+```bash
+set FLASK_APP=main.py
+set FLASK_ENV=Development
+```
+
+  ```
+  python main.py
+  ```
 - Entre no seu navegador acessando a porta padrão
 ```bash
 http://127.0.0.1:5000/
