@@ -1,5 +1,7 @@
-# Water Lights
-Projeto de um site para a venda de desenhos e publicações de um blog da Gisela Ortt [@waternlights](https://www.instagram.com/waternlights/)
+# Gisela Ortt
+Projeto de um site para a venda de desenhos e publicações de um blog da Gisela Ortt   
+ [@waternlights](https://www.instagram.com/waternlights/)  
+ [portifólio](https://drive.google.com/drive/u/0/folders/1D8wFGOGt5BMG6-57hG2jsTmZavpsbuxN)
 
 ## Pré-requisitos
 Para você rodar o projeto é necessário tem instalado em sua máquina o `Python3.6.+`.
@@ -7,7 +9,7 @@ Para você rodar o projeto é necessário tem instalado em sua máquina o `Pytho
 ## Como rodar esse projeto
 - ### Clone esse repositório.
 ```bash
-git clone https://github.com/igor-taconi/waternlighys.git <nome_da_pasta>
+git clone https://github.com/igor-taconi/giselaortt.git <nome_da_pasta>
 ```
 
 - ### Crie um virtualenv com Python 3.
