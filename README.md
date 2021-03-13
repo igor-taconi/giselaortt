@@ -7,7 +7,7 @@ Para você rodar o projeto é necessário tem instalado em sua máquina o `Pytho
 ## Como rodar esse projeto
 - ### Clone esse repositório.
 ```bash
-git clone https://github.com/igor-taconi/waternlighys.git <nome_da_pasta>
+git clone https://github.com/igor-taconi/waternlights.git <nome_da_pasta>
 ```
 
 - ### Crie um virtualenv com Python 3.
