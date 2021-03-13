@@ -36,12 +36,12 @@ pip install -r requirements.txt
 ```
 
 - ### Como rodar esse projeto
- - Se estiver usando linux
+ - Se estiver usando Linux ou Mac
 ```bash
 export FLASK_APP=main.py
 export FLASK_ENV=Development
 ```
- - Se estiver usando windowns
+ - Se estiver usando Windows
 ```bash
 set FLASK_APP=main.py
 set FLASK_ENV=Development
