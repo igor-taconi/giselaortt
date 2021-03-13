@@ -1,7 +1,13 @@
 # Gisela Ortt
 Projeto de um site para a venda de desenhos e publicações de um blog da Gisela Ortt   
- [@waternlights](https://www.instagram.com/waternlights/)  
- [portifólio](https://drive.google.com/drive/u/0/folders/1D8wFGOGt5BMG6-57hG2jsTmZavpsbuxN)
+<a href="https://www.instagram.com/waternlights/">
+  <img alt="Instagram" src="https://img.shields.io/badge/-Watern Lights-%23B7178C.svg?&logo=Instagram&logoColor=white"/>
+</a>   
+
+<a href="https://drive.google.com/drive/u/0/folders/1D8wFGOGt5BMG6-57hG2jsTmZavpsbuxN">
+  <img alt="GoogleDrive" src="https://img.shields.io/badge/-Portifólio-%2331A8FF.svg?&logo=GoogleDrive&logoColor=white"/>
+</a>     
+<br>
 
 ## Pré-requisitos
 Para você rodar o projeto é necessário tem instalado em sua máquina o `Python3.6.+`.
