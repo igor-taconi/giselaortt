@@ -35,20 +35,9 @@ poetry install
 ```
 
 - ### Como rodar esse projeto
- - Se estiver usando Linux ou Mac
 ```bash
-export FLASK_ENV=development
-export FLASK_APP=giselaortt.app:create_app
+flask run
 ```
- - Se estiver usando Windows
-```bash
-set FLASK_ENV=development
-set FLASK_APP=giselaortt.app:create_app
-```
-
-  ```bash
-  flask run
-  ```
 - Entre no seu navegador acessando a porta padrão
 ```bash
 http://127.0.0.1:5000/
