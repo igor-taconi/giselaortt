@@ -1,7 +1,7 @@
 # Gisela Ortt
 Projeto de um site para a venda de desenhos e publicações de um blog da Gisela Ortt   
 <a href="https://www.instagram.com/waternlights/">
-  <img alt="Instagram" src="https://img.shields.io/badge/-Watern Lights-%23B7178C.svg?&logo=Instagram&logoColor=white"/>
+  <img alt="Instagram" src="https://img.shields.io/badge/Watern Lights-%23E4405F.svg?&logo=Instagram&logoColor=white"/>
 </a>   
 
 <a href="https://drive.google.com/drive/u/0/folders/1D8wFGOGt5BMG6-57hG2jsTmZavpsbuxN">
@@ -38,17 +38,31 @@ poetry install
 ```bash
 flask run
 ```
+ou
+```bash
+gunicorn giselaortt.wsgi:app --bind 0.0.0.0:5000 --timeout 1000 --worker-class gevent
+```
 - Entre no seu navegador acessando a porta padrão
 ```bash
 http://127.0.0.1:5000/
 ```
 
 ## Todo
-- Implementar testes.
-- Implementar banco de dados para o cadastro dos usuários, cadastro dos produtos e para os posts do blog.
-- Melhorar o design do site.
- - interface do usuário (UI).
- - experiência do usuário (UX).
+:white_check_mark: Done
+:soon: In progress
+
+| Status | Tarefa |
+|--------|--------|
+|  | Testes de unidade |
+| | Criar admim |
+| | Banco de dados para os usuários |
+| | Banco de dados para os post's |
+| | Banco de dados para os produtos |
+| | Testes funcionais |
+| | Interface do usuário (UI) |
+| | Calcular frete |
+| | Validar dados de pagamento |
+| | experiência do usuário (UX) |
 
 ## Contribuindo
 Sinta-se à vontade para enviar pull requests ou criar uma issue para sujestões ou discuções sobre escolhas no projeto, estrutura ou feramentas.
