@@ -30,7 +30,7 @@ Para você rodar o projeto é necessário tem instalado em sua máquina o [`Pyth
 git clone https://github.com/igor-taconi/giselaortt.git <nome_da_pasta>
 ```
 - ### Virtualenv e dependências
-  #### Venv
+  ### Venv
 
   - ##### Crie um virtualenv com Python3 usando o venv.   
 ```bash
@@ -51,7 +51,7 @@ pip install --require-hashes -r requirements_dev.txt
 pip install --require-hashes -r requirements_test.txt
 ```
 
-  #### Poetry
+  ### Poetry
   - ##### Crie um virtualenv com Python 3.8 usando o poetry.   
 ```bash
 cd <nome_da_pasta>
