@@ -11,5 +11,5 @@ def minimal_app(**config):
 
 def create_app(**config):
     app = minimal_app(**config)
-    app.config.load_extensions(app)
+    app.config.load_extensions()
     return app
