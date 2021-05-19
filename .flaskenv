@@ -1,3 +1,0 @@
-FLASK_DEBUG=true
-FLASK_ENV=development
-FLASK_APP=waternlights.wsgi:app
