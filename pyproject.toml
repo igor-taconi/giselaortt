@@ -35,6 +35,7 @@ python-dotenv = "^0.15.0"
 gunicorn = "^20.0.4"
 gevent = "^21.1.2"
 peewee = "^3.14.4"
+flask_simplelogin = "^0.0.7"
 
 [tool.poetry.dev-dependencies]
 ipdb = "^0.13.6"
