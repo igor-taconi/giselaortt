@@ -1,6 +1,6 @@
 ISORT_ARGS := --combine-star --combine-as --order-by-type --thirdparty scrapy --multi-line 3 --trailing-comma --force-grid-wrap 0 --use-parentheses --line-width 79
 
-SRC_DIRS := ./waternlights
+SRC_DIRS := ./packages/app
 
 check:
 	python -m isort --check --diff $(ISORT_ARGS) $(SRC_DIRS)
@@ -12,7 +12,7 @@ format:
 	python -m black $(SRC_DIRS)
 
 run:
-	gunicorn waternlights.wsgi:app --bind 0.0.0.0:5000 --timeout 1000 --worker-class gevent
+	gunicorn packages.app.wsgi:app --bind 0.0.0.0:5000 --timeout 1000 --worker-class gevent
 
 clean:
 	@find . -name '*.pyc' -exec rm -rf {} \;
@@ -28,5 +28,5 @@ clean:
 	rm -rf docs/_build
 
 test:
-	pytest waternlights/tests/ -v --cov=waternlights
+	pytest packages/tests/ -v --cov=packages.app
 	coverage html

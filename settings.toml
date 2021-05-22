@@ -9,7 +9,7 @@ TITLE = "Gisela Ortt"
 SECRET_KEY = "jadkfbsdkjbfbh"
 PASSWORD_SCHEMES = ['pbkdf2_sha512', 'md5_crypt']
 EXTENSIONS = [
-    "waternlights.blueprints.webui:init_app",
+    "packages.app.ext.site:init_app",
 ]
 
 
