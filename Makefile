@@ -9,7 +9,7 @@ check:
 
 format:
 	python -m isort --apply $(ISORT_ARGS) $(SRC_DIRS)
-	python -m black $(SRC_DIRS)
+	python -m black -l 79 -S $(SRC_DIRS)
 
 run:
 	gunicorn packages.app.wsgi:app --bind 0.0.0.0:5000 --timeout 1000 --worker-class gevent
