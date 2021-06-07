@@ -15,3 +15,7 @@ def publications():
 
 def about():
     return render_template("about.html")
+
+
+def ilustrations():
+    return render_template("ilustrations.html")
