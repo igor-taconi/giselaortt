@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
-      <strong>Gisela Blog</strong>
+      <strong>Gisela Ortt</strong>
     </a>
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -16,38 +16,19 @@
       <a class="navbar-item" href="/">
         Home
       </a>
-
+      <a class="navbar-item" href="{{ url_for('ui.ilustrations') }}">
+        Ilustrações
+      </a>
       <a class="navbar-item" href="{{ url_for('ui.publications') }}">
         Publicacões
       </a>
-
       <a class="navbar-item" href="{{ url_for('ui.about') }}">
         Sobre
       </a>
-
-      <!-- <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          Mais
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            Ilustrações
-          </a>
-          <a class="navbar-item">
-            Camisas
-          </a>
-          <a class="navbar-item">
-            Canecas
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div> -->
+      <a class="navbar-item" href="{{ url_for('ui.contact') }}">
+        Contato
+      </a>
     </div>
-
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
