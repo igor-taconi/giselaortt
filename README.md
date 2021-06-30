@@ -46,9 +46,9 @@ http://127.0.0.1:5000/
 ```
 
 ## Todo
-- [ ] Criar admim  
-- [ ] Banco de dados para os usuários  
-- [ ] Banco de dados para os post's  
+- [x] Criar admim  
+- [x] Banco de dados para os usuários  
+- [x] Banco de dados para os post's  
 - [ ] Banco de dados para os produtos  
 - [ ] Testes funcionais  
 - [ ] Interface do usuário (UI)  
